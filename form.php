@@ -33,7 +33,7 @@
                                             <input name="email" class="validate-required validate-email" type="email" placeholder="Ingrese su correo electrónico">
                                         </div>
                                         <div class="col-sm-12 boxed">
-                                            <h5>¿De dónde eres?</h5>Queremos saber desde qué provincia y país te gustaría iniciar tu viaje
+                                            <h5>¿De dónde eres? <span class="no-bolt">Queremos saber desde qué provincia y país te gustaría iniciar tu viaje</span></h5>
                                         </div>
                                         <div class="col-sm-12">
                                         <input class="validate-required" type="text" name="¿De dónde eres?" placeholder="Provincia, país donde inicia viaje" />
@@ -83,7 +83,7 @@
                                             </div>
                                             <span>Otro: </span>
                                         </div>
-                                        <div class="col-sm-5">
+                                        <div class="col-sm-10">
                                         <input type="text" name="Otro_Destino" placeholder="¿Cuál sería?" />
                                         </div>
                                         <div class="col-sm-5">
@@ -91,13 +91,13 @@
                                         <div class="col-sm-12 boxed">
                                             <h5>¿En qué fecha desea viajar?</h5>
                                         </div>
-                                        <div class="col-sm-12 text-center">
+                                        <div class="col-sm-12">
                                             <input type="text" name="fecha_aproximada_inicio" class="datepicker validate-required" placeholder="Seleccione una fecha aproximada de inicio" />
                                         </div>
                                         <div class="col-sm-12 boxed">
                                             <h5>¿Cuantos dias aproximadamente?</h5>
                                         </div>
-                                        <div class="col-sm-12 text-center">
+                                        <div class="col-sm-12">
                                         <div class="input-number">
                                         	<input type="number" class="validate-required" name="cantidad_dias" placeholder="Cantidad de días" value="7" min="1" max="30" />
                                         	<div class="input-number__controls">
@@ -137,7 +137,7 @@
                                         <div class="col-sm-12 boxed">
                                             <h5>¿Cuantas personas viajan?</h5>
                                         </div>
-                                        <div class="col-sm-12 text-center">
+                                        <div class="col-sm-12">
                                             <div class="input-number">
                                             	<input type="number" name="cantidad_personas" placeholder="Cantidad de personas" value="1" min="1" max="20" />
                                             	<div class="input-number__controls">
@@ -163,11 +163,10 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-12 boxed">
-                                            <h5>¿Alguna preferencia para el hotel?</h5>(Actividades nocturnas, ubicación, etc.)
+                                            <h5>¿Alguna preferencia para el hotel?<span class="no-bolt"> Actividades nocturnas, ubicación, etc.</span></h5>
                                         </div>
+                                        <div class="col-sm-12">
                                         <input type="text" class="validate-required" name="preferencia_hotel" placeholder="Preferencia para el hotel" />
-                                        <div class="col-sm-12 text-center boxed">
-
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="input-checkbox input-checkbox--switch">
@@ -232,10 +231,12 @@
                                         <input type="text" name="otro_objetivo" placeholder="Otro objetivo.." />
                                         </div>
                                         <div class="col-sm-12 boxed">
-                                            <h5>Observaciones</h5>Aquí podes comentar todos los datos que creas necesarias para que tu viaje sea el mejor
+                                            <h5>Observaciones <span class="no-bolt"> Comentanos todos los datos que creas necesarios para que tu viaje sea el mejor</span></h5>
                                         </div>
+                                        <div class="col-sm-12">
                                         <input type="text" name="observaciones" placeholder="Observaciones.." />
-                                        <div class="col-sm-6 boxed"> <button type="submit" class="btn btn--primary type--uppercase">Enviar</button> </div>
+                                        <div class="col-xs-12 col-sm-6 boxed pull-right"> <button type="submit" class="btn btn--primary type--uppercase">Enviar</button> </div>
+                                        </div>
                                     </form>
                                 </div>
                             </div>
