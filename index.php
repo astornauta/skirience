@@ -13,7 +13,7 @@
                         <div class="col-sm-10 col-md-12 padding-left-title-typed">
                             <div class="typed-headline">
                                 <i>
-                                <span class="h1 inline-block color--primary">Viví experiencias</span>
+                                <span class="h1 inline-block color--primary">Vive experiencias</span>
                                 <span class="h1 inline-block typed-text typed-text--cursor color--white" data-typed-strings=" únicas, inolvidables, de esquiar, de viajar"></span>
                                 </i>
                             </div>
