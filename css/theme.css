@@ -204,6 +204,10 @@ a:active {
 .type--italic {
   font-style: italic;
 }
+.no-bolt{
+  font-weight: 200 !important;
+  font-style: italic;
+}
 .type--fine-print {
   font-size: 0.85714286em;
 }
@@ -2745,6 +2749,10 @@ a {
 .color--black-ski {
   color: #505A61 !important;
 }
+.color--black-ski-title {
+  color: #A9E8DC !important;
+}
+/*#609de6*/
 .color--blue-ski {
   color: #0284A8 !important;
 }
@@ -2790,7 +2798,7 @@ a {
   background: #0284A8;
 }
 .bg--ski {
-  background: #E1F7E7;
+  background: #FAFAFA;
 }
 .bg--primary p,
 .bg--primary span,
@@ -3536,6 +3544,7 @@ div[class*='col-'] > div[class*='col-']:first-child {
 }
 div[class*='col-'] > div[class*='col-']:last-child {
   padding-right: 0;
+  padding-left: 0;
 }
 @media all and (max-width: 767px) {
   .col-xs-6:nth-child(odd) {
@@ -7060,6 +7069,9 @@ a[data-lightbox]:hover {
   background: #585858;
 }
 /*! -- Stack Typed Text -- */
+.padding-left-title-typed {
+  padding-left: 130px;
+}
 .typed-headline h1,
 .typed-headline .h1 {
   font-weight: 900;
@@ -7073,6 +7085,13 @@ span + .typed-text.h1 {
   margin-left: 6px;
 }
 @media all and (max-width: 767px) {
+  .padding-left-title-typed {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .center-movil{
+    text-align: center;
+  }
   .typed-text {
     display: block;
   }
