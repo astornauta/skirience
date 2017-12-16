@@ -1,1 +1,70 @@
-/*! Place your custom styles here */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #505A61;
+}
+.no-bolt{
+  font-weight: 200 !important;
+  font-style: italic;
+}
+.btn.bg--googleplus .btn__text4a90e2 i {
+  color: #fff;
+}
+.color--black-ski {
+  color: #505A61 !important;
+}
+.color--black-ski-title {
+  color: #A9E8DC !important;
+}
+/*#609de6*/
+.color--blue-ski {
+  color: #0284A8 !important;
+}
+.bg--ski-dark {
+  background: #0284A8;
+}
+.bg--ski {
+  background: #FAFAFA;
+}
+section.space--100,
+footer.space--100 {
+  height: 100%;
+}
+div[class*='col-'] > div[class*='col-']:last-child {
+  padding-right: 0;
+  padding-left: 0;
+}
+/*! -- Stack Tables -- */
+table th,
+table td {
+  padding: 0.5em;
+  padding: 0.92857143em;
+}
+/*! -- Stack Typed Text -- */
+.padding-left-title-typed {
+  padding-left: 110px;
+}
+.typed-headline h1,
+.typed-headline .h1 {
+  font-weight: 900;
+  font-size: 5em;
+  line-height: 1.31818182em;
+}
+@media all and (max-width: 767px) {
+  .typed-headline h1,
+  .typed-headline .h1 {
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 1.31818182em;
+    margin-bottom: 0;
+  }
+}
