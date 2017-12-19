@@ -61,9 +61,10 @@
                         <div class="col-sm-6 col-xs-12">
                             <div class="row">
                                 <form class="form-email" data-success="Gracias por su consulta, nos pondremos en contacto en breve." data-error="Por favor complete todos los campos correctamente.">
-                                    <div class="col-sm-6 col-xs-12"> <label>NOMBRE:</label> <input name="Name" class="validate-required" placeholder="Su nombre.." type="text"> </div>
-                                    <div class="col-sm-6 col-xs-12"> <label>EMAIL:</label> <input name="Email" class="validate-required validate-email" placeholder="Su email.." type="email"> </div>
-                                    <div class="col-sm-12 col-xs-12"> <label>MENSAJE:</label> <textarea rows="4" name="Mensaje" class="validate-required" placeholder="Su mensaje.."></textarea> </div>
+                                    <input type="hidden" name="consulta" value="consulta">
+                                    <div class="col-sm-6 col-xs-12"> <label>NOMBRE:</label> <input name="name" class="validate-required" placeholder="Su nombre.." type="text"> </div>
+                                    <div class="col-sm-6 col-xs-12"> <label>EMAIL:</label> <input name="email" class="validate-required validate-email" placeholder="Su email.." type="email"> </div>
+                                    <div class="col-sm-12 col-xs-12"> <label>MENSAJE:</label> <textarea rows="4" name="mensaje" class="validate-required" placeholder="Su mensaje.."></textarea> </div>
                                     <div class="col-sm-5 col-md-4 col-xs-6"> <button type="submit" class="btn btn--primary type--uppercase">ENVIAR </button> </div>
                                 </form>
                             </div>

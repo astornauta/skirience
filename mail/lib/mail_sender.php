@@ -54,7 +54,7 @@ $mailer = Swift_Mailer::newInstance($transport);
 // Creating the message text using fields sent through POST
 foreach ($_POST as $key => $value)
 {
-  if($value !== '' && $key !=='url' && $key !== 'g-recaptcha-response' && $key !== 'captcha'){// Sets of checkboxes will be shown as comma-separated values as they are passed in as an array.
+  if($key !== 'consulta' && $key !== 'formulario' && $value !== '' && $key !=='url' && $key !== 'g-recaptcha-response' && $key !== 'captcha'){// Sets of checkboxes will be shown as comma-separated values as they are passed in as an array.
       if(is_array($value)){
           $value = implode(', ' , $value);
       }
@@ -75,6 +75,23 @@ $message = Swift_Message::newInstance($emailSubject)
 // Send the message or catch an error if it occurs.
 try{
   echo($mailer->send($message));
+  // Save db
+    $hotsdb = "localhost";
+    $basededatos = "skirience";
+    $usuariodb = "root";
+    $clavedb = "root";
+    $tabla_db1 = "consulta";
+    $tabla_db2 = "formulario";
+    $conexion_db = mysqli_connect($hotsdb, $usuariodb, $clavedb, $basededatos) or die("Conexión denegada, el Servidor de Base de datos que solicitas NO EXISTE". mysqli_error($conexion_db));
+    if (isset($_POST["consulta"])) {
+        $nombre = $_POST["name"];
+        $email = $_POST["email"];
+        $mensaje = $_POST["mensaje"];
+        $fecha = date("Y-m-d");
+        $query_consulta = "INSERT INTO $tabla_db1 (`consulta_name`, `consulta_email`, `consulta_text`, `consulta_date`) VALUES ('$nombre','$email','$mensaje','$fecha')";
+        mysqli_query($conexion_db, $query_consulta);
+    }
+    mysqli_close($conexion_db);
   if($saveToCSV !== false){
     // Save to CSV file
     $file = fopen($saveToCSV, 'a');
@@ -86,7 +103,7 @@ try{
   }
 }
 catch(Exception $e){
-  echo($e->getMessage());
+    echo($e->getMessage());
 }
 
 if($sendConfirmationToUser !== false){
