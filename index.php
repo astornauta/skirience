@@ -27,7 +27,7 @@
                     <div class="row">
                         <div class="col-sm-8 col-md-7">
                             <h1><b><i>Skirience</i></b></h1>
-                            <p class="lead">Somos una joven agencia con ganas de ayudarte a que tengas una experiencia inolvidable, esquiando en los mejores resorts del mundo sin la preocupación de tener que organizar tú solo el viaje</p>
+                            <p class="lead text-left">Somos una joven agencia con ganas de ayudarte a que tengas una experiencia inolvidable, esquiando en los mejores resorts del mundo sin la preocupación de tener que organizar tú solo el viaje</p>
                             <a class="btn btn--primary type--uppercase" href="quienessomos.php"> <span class="btn__text">Leer más </span> </a>
                         </div>
                     </div>
