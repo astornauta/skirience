@@ -93,3 +93,11 @@ section.space--md, footer.space--md {
 .menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
   opacity: 80;
 }
+
+.bar .logo {
+  max-height: 3.85714286em;
+  max-width: none;
+}
+.padding-top-bar{
+  padding-top: 9px;
+}
