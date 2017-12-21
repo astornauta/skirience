@@ -6,7 +6,7 @@
             include("nav.html");
         ?>
         <div class="main-container">
-            <section class="text-center imagebg" data-overlay="2">
+            <section class="text-center imagebg" data-overlay="5">
                 <div class="background-image-holder"> <img alt="background" src="img/Formulario_bg.jpg"> </div>
                 <div class="container">
                     <div class="row">
