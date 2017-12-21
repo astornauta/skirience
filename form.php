@@ -6,7 +6,7 @@
             include("nav.html");
         ?>
         <div class="main-container">
-            <section class="text-center imagebg" data-overlay="2">
+            <section class="text-center imagebg" data-overlay="5">
                 <div class="background-image-holder"> <img alt="background" src="img/Formulario_bg.jpg"> </div>
                 <div class="container">
                     <div class="row">
@@ -24,6 +24,7 @@
                             <div class="row">
                                 <div class="boxed boxed--border">
                                     <form class="text-left form-email" data-success="Gracias por comunicarse, nos pondremos en contacto en breve." data-error="Por favor complete todos los campos correctamente.">
+                                        <input type="hidden" name="formulario" value="formulario">
                                         <div class="col-sm-6 boxed">
                                             <h5>Nombre</h5>
                                             <input class="validate-required" type="text" name="name" placeholder="Ingrese su nombre" />
@@ -36,21 +37,21 @@
                                             <h5>¿De dónde eres? <span class="no-bolt">Queremos saber desde qué provincia y país te gustaría iniciar tu viaje</span></h5>
                                         </div>
                                         <div class="col-sm-12">
-                                        <input class="validate-required" type="text" name="¿De dónde eres?" placeholder="Provincia, país donde inicia viaje" />
+                                        <input class="validate-required" type="text" name="inicio_viaje" placeholder="Provincia, país donde inicia viaje" />
                                         </div>
                                         <div class="col-sm-12 boxed">
                                             <h5>¿A dónde te gustaría viajar?</h5>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Aspen" type="checkbox" name="Aspen Snowmass,Colorado" />
+                                            	<input id="Aspen" type="checkbox" name="Aspen_Snowmass,Colorado" />
                                             	<label for="Aspen"></label>
                                             </div>
                                             <span>Aspen Snowmass, Colorado</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Sankt" type="checkbox" name="Sankt Anton,Austria" />
+                                            	<input id="Sankt" type="checkbox" name="Sankt_Anton,Austria" />
                                             	<label for="Sankt"></label>
                                             </div>
                                             <span>Sankt Anton, Austria</span>
@@ -64,7 +65,7 @@
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Baqueira" type="checkbox" name="Baqueira Beret,España" />
+                                            	<input id="Baqueira" type="checkbox" name="Baqueira_Beret,España" />
                                             	<label for="Baqueira"></label>
                                             </div>
                                             <span>Baqueira Beret, España</span>
@@ -78,13 +79,13 @@
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="input-checkbox">
-                                            	<input id="Otro" type="checkbox" name="Otro_Destino" />
+                                            	<input id="Otro" type="checkbox" name="Otro_Destino_check" />
                                             	<label for="Otro"></label>
                                             </div>
                                             <span>Otro: </span>
                                         </div>
                                         <div class="col-sm-10">
-                                        <input type="text" name="Otro_Destino" placeholder="¿Cuál sería?" />
+                                        <input type="text" name="otro_destino" placeholder="¿Cuál sería?" />
                                         </div>
                                         <div class="col-sm-5">
                                         </div>
@@ -222,7 +223,7 @@
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="input-checkbox">
-                                            	<input id="Otro-objetivo" type="checkbox" name="Otro_objetivo" />
+                                            	<input id="Otro-objetivo" type="checkbox" name="Otro_objetivo_check" />
                                             	<label for="Otro-objetivo"></label>
                                             </div>
                                             <span>Otro: </span>
