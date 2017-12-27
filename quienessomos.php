@@ -3,7 +3,7 @@
 ?>
     <body data-smooth-scroll-offset="77">
         <?php
-            include("nav-quienessomos.html");
+            include("nav.html");
         ?>
         <div class="main-container">
             <section class="text-center imagebg section--ken-burns text-left-sm" data-overlay="4">
