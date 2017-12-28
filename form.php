@@ -44,6 +44,20 @@
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
+                                            	<input id="Chapelco" type="checkbox" name="Chapelco,Argentina" />
+                                            	<label for="Aspen"></label>
+                                            </div>
+                                            <span>Chapelcó, Argentina</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="input-checkbox">
+                                            	<input id="SanMartin" type="checkbox" name="San_Martin_de_los_Andes,Argentina" />
+                                            	<label for="Aspen"></label>
+                                            </div>
+                                            <span>San Martin de los Andes, Argentina</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="input-checkbox">
                                             	<input id="Aspen" type="checkbox" name="Aspen_Snowmass,Colorado" />
                                             	<label for="Aspen"></label>
                                             </div>

@@ -30,6 +30,8 @@
       $name = $_POST['name'];
       $email = $_POST['email'];
       $lugar_inicio_viaje = $_POST['inicio_viaje'];
+      empty($_POST['Chapelco,Argentina']) ? $destino_chapelco = 'NO' : $destino_chapelco = 'SI';
+      empty($_POST['San_Martin_de_los_Andes,Argentina']) ? $destino_san_martin = 'NO' : $destino_san_martin = 'SI';
       empty($_POST['Aspen_Snowmass,Colorado']) ? $destino_aspen_colorado = 'NO' : $destino_aspen_colorado = 'SI';
       empty($_POST['Sankt_Anton,Austria']) ? $destino_sankt_austria = 'NO' : $destino_sankt_austria = 'SI';
       empty($_POST['Vail,Colorado']) ? $destino_vail_colorado = 'NO' : $destino_vail_colorado = 'SI';
@@ -58,7 +60,7 @@
 
       // Guardo en DB
       $tabla_db = "formulario";
-      $query_formulario= "INSERT INTO $tabla_db (`name`, `email`, `lugar_inicio_viaje`, `destino_aspen_colorado`, `destino_sankt_austria`, `destino_vail_colorado`, `destino_baqueria_espana`, `destino_niseko_japon`, `destino_otro`, `fecha_aprox_inicio`, `cantidad_dias`, `fecha_desde`, `fecha_hasta`, `fechas_flexibles`, `cantidad_personas`, `cantidad_ninos`, `edad_promedio_ninos`, `preferencia_hotel`, `alquiler_equipo`, `tomar_clases`, `objetivo_esquiar`, `objetivo_familia`, `objetivo_vida_nocturna`, `objetivo_relax_spa`, `objetivo_shopping`, `objetivo_otro`, `observaciones`, `fecha_envio`) VALUES ('$name', '$email', '$lugar_inicio_viaje', '$destino_aspen_colorado', '$destino_sankt_austria', '$destino_vail_colorado', '$destino_baqueria_españa', '$destino_niseko_japon', '$destino_otro', '$fecha_aprox_inicio', '$cantidad_dias', '$fecha_desde', '$fecha_hasta', '$fechas_flexibles', '$cantidad_personas', '$cantidad_niños', '$edad_promedio_niños', '$preferencia_hotel', '$alquiler_equipo', '$tomar_clases', '$objetivo_esquiar', '$objetivo_familia', '$objetivo_vida_nocturna', '$objetivo_relax_spa', '$objetivo_shopping', '$objetivo_otro', '$observaciones', '$fecha')";
+      $query_formulario= "INSERT INTO $tabla_db (`name`, `email`, `lugar_inicio_viaje`, `destino_chapelco`, `destino_san_martin`, `destino_aspen_colorado`, `destino_sankt_austria`, `destino_vail_colorado`, `destino_baqueria_espana`, `destino_niseko_japon`, `destino_otro`, `fecha_aprox_inicio`, `cantidad_dias`, `fecha_desde`, `fecha_hasta`, `fechas_flexibles`, `cantidad_personas`, `cantidad_ninos`, `edad_promedio_ninos`, `preferencia_hotel`, `alquiler_equipo`, `tomar_clases`, `objetivo_esquiar`, `objetivo_familia`, `objetivo_vida_nocturna`, `objetivo_relax_spa`, `objetivo_shopping`, `objetivo_otro`, `observaciones`, `fecha_envio`) VALUES ('$name', '$email', '$lugar_inicio_viaje','$destino_chapelco','$destino_san_martin', '$destino_aspen_colorado', '$destino_sankt_austria', '$destino_vail_colorado', '$destino_baqueria_españa', '$destino_niseko_japon', '$destino_otro', '$fecha_aprox_inicio', '$cantidad_dias', '$fecha_desde', '$fecha_hasta', '$fechas_flexibles', '$cantidad_personas', '$cantidad_niños', '$edad_promedio_niños', '$preferencia_hotel', '$alquiler_equipo', '$tomar_clases', '$objetivo_esquiar', '$objetivo_familia', '$objetivo_vida_nocturna', '$objetivo_relax_spa', '$objetivo_shopping', '$objetivo_otro', '$observaciones', '$fecha')";
       mysqli_query($conexion_db, $query_formulario);
 
       //Prepara mail
@@ -67,6 +69,8 @@
       $message .= "<br><br><b>Email:</b> " . $email;
       $message .= "<br><br><b>Lugar de inicio del viaje:</b> " . $lugar_inicio_viaje;
       $message .= "<br><br><u>DESTINOS</u> ";
+      $message .= "<br><br><b>Chapelco:</b> " . $destino_chapelco;
+      $message .= "<br><br><b>San Martin de los Andes:</b> " . $destino_san_martin;
       $message .= "<br><br><b>Aspen Colorado:</b> " . $destino_aspen_colorado;
       $message .= "<br><br><b>Sankt Austria:</b> " . $destino_sankt_austria;
       $message .= "<br><br><b>Vail Colorado:</b> " . $destino_vail_colorado;
