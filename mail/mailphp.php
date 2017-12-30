@@ -4,10 +4,7 @@
   $to = "info@skirience.com";
 
   // Prepara conexión DB
-  include("database.html");
-  // $hotsdb, $basededatos, $usuariodb, $clavedb
-
-  $conexion_db = mysqli_connect($hotsdb, $usuariodb, $clavedb, $basededatos) or die("Conexión denegada, el Servidor de Base de datos que solicitas NO EXISTE". mysqli_error($conexion_db));
+  include("open_connexion.php");
 
   if (isset($_POST["consulta"])) {
       // Setea variables de consulta
@@ -113,7 +110,7 @@
   // echo $error;
 
   // Cierra conexión DB
-  mysqli_close($conexion_db);
+  include("close_connexion.php");
 
   //Envía Mail
   if( mail($to, $subject, $message, $headers) ) {
