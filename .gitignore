@@ -1,7 +1,6 @@
 #Ignorar
 ~*
+.DS_Store
 *.so
 *.log
-mail/database.php
-mail/open_connexion.php
-mail/close_connexion.php
+mail/open_conexion.php
