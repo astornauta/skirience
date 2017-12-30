@@ -19,7 +19,7 @@
             </section>
             <section class="imageblock switchable height-60 text-left-sm switchable--switch bg--ski">
                 <div class="imageblock__content col-md-6 col-sm-4 pos-right">
-                    <div class="background-image-holder"> <img alt="image" src="img/Block-quienes.jpeg"> </div>
+                    <div class="background-image-holder"> <img alt="image" src="img/Block_quienes.jpg"> </div>
                 </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
@@ -113,11 +113,35 @@
                         <div class="masonry__item col-md-8 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital">
                             <div class="project-thumb hover-element height-50">
                                 <div class="hover-element__initial">
-                                    <div class="background-image-holder"> <img alt="background" src="img/las-lenas.jpg"> </div>
+                                    <div class="background-image-holder"> <img alt="background" src="img/las_lenas.jpg"> </div>
                                 </div>
                                 <div class="hover-element__reveal" data-overlay="9">
                                     <div class="project-thumb__title">
                                         <h5>Argentina, Las leñas</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry__item col-md-8 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital">
+                            <div class="project-thumb hover-element height-50">
+                                <div class="hover-element__initial">
+                                    <div class="background-image-holder"> <img alt="background" src="img/San_Martin.jpg"> </div>
+                                </div>
+                                <div class="hover-element__reveal" data-overlay="9">
+                                    <div class="project-thumb__title">
+                                        <h5>Argentina, San Martin de los Andes</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="masonry__item col-md-4 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital">
+                            <div class="project-thumb hover-element height-50">
+                                <div class="hover-element__initial">
+                                    <div class="background-image-holder"> <img alt="background" src="img/chapelco.jpg"> </div>
+                                </div>
+                                <div class="hover-element__reveal" data-overlay="9">
+                                    <div class="project-thumb__title">
+                                        <h5>Argentina, Chapelco</h5>
                                     </div>
                                 </div>
                             </div>
