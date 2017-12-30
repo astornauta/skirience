@@ -3,3 +3,5 @@
 *.so
 *.log
 mail/database.php
+mail/open_connexion.php
+mail/close_connexion.php
