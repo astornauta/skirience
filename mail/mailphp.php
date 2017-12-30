@@ -85,8 +85,8 @@
       $message .= "<br><br><b>Cantidad de niños:</b> " . $cantidad_niños;
       $message .= "<br><br><b>Edad promedio de los niños:</b> " . $edad_promedio_niños;
       $message .= "<br><br><b>Preferencia para el hotel:</b> " . $preferencia_hotel;
-      $message .= "<br><br><b>Alquila equipo esqui:</b> " . $alquiler_equipo;
-      $message .= "<br><br><b>Toma clases de esqui o snowboard:</b> " . $tomar_clases;
+      $message .= "<br><br><b>¿Alquila equipo esqui?:</b> " . $alquiler_equipo;
+      $message .= "<br><br><b>¿Toma clases de esqui o snowboard?:</b> " . $tomar_clases;
       $message .= "<br><br><u>OBJETIVO DEL VIAJE</u>";
       $message .= "<br><br><b>Esquiar:</b> " . $objetivo_esquiar;
       $message .= "<br><br><b>Vida Nocturna:</b> " . $objetivo_vida_nocturna;
@@ -95,7 +95,7 @@
       $message .= "<br><br><b>Shopping:</b> " . $objetivo_shopping;
       $message .= "<br><br><b>Otro:</b> " . $objetivo_otro;
         $message .= "<br><br>";
-      $message .= "<br><br><b>Obserbaciones:</b> " . $observaciones;
+      $message .= "<br><br><b>Observaciones:</b> " . $observaciones;
 
 
       $headers = "MIME-Version: 1.0" . "\r\n";
