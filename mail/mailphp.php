@@ -4,10 +4,7 @@
   $to = "info@skirience.com";
 
   // Prepara conexión DB
-  include("database.html");
-  // $hotsdb, $basededatos, $usuariodb, $clavedb
-
-  $conexion_db = mysqli_connect($hotsdb, $usuariodb, $clavedb, $basededatos) or die("Conexión denegada, el Servidor de Base de datos que solicitas NO EXISTE". mysqli_error($conexion_db));
+  include("open_connexion.php");
 
   if (isset($_POST["consulta"])) {
       // Setea variables de consulta
@@ -88,8 +85,8 @@
       $message .= "<br><br><b>Cantidad de niños:</b> " . $cantidad_niños;
       $message .= "<br><br><b>Edad promedio de los niños:</b> " . $edad_promedio_niños;
       $message .= "<br><br><b>Preferencia para el hotel:</b> " . $preferencia_hotel;
-      $message .= "<br><br><b>Alquila equipo esqui:</b> " . $alquiler_equipo;
-      $message .= "<br><br><b>Toma clases de esqui o snowboard:</b> " . $tomar_clases;
+      $message .= "<br><br><b>¿Alquila equipo esqui?:</b> " . $alquiler_equipo;
+      $message .= "<br><br><b>¿Toma clases de esqui o snowboard?:</b> " . $tomar_clases;
       $message .= "<br><br><u>OBJETIVO DEL VIAJE</u>";
       $message .= "<br><br><b>Esquiar:</b> " . $objetivo_esquiar;
       $message .= "<br><br><b>Vida Nocturna:</b> " . $objetivo_vida_nocturna;
@@ -98,7 +95,7 @@
       $message .= "<br><br><b>Shopping:</b> " . $objetivo_shopping;
       $message .= "<br><br><b>Otro:</b> " . $objetivo_otro;
         $message .= "<br><br>";
-      $message .= "<br><br><b>Obserbaciones:</b> " . $observaciones;
+      $message .= "<br><br><b>Observaciones:</b> " . $observaciones;
 
 
       $headers = "MIME-Version: 1.0" . "\r\n";
@@ -113,7 +110,7 @@
   // echo $error;
 
   // Cierra conexión DB
-  mysqli_close($conexion_db);
+  include("close_connexion.php");
 
   //Envía Mail
   if( mail($to, $subject, $message, $headers) ) {
