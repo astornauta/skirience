@@ -94,7 +94,7 @@
       $message .= "<br><br><b>Relax/Spa:</b> " . $objetivo_relax_spa;
       $message .= "<br><br><b>Shopping:</b> " . $objetivo_shopping;
       $message .= "<br><br><b>Otro:</b> " . $objetivo_otro;
-        $message .= "<br><br>";
+      $message .= "<br><br>";
       $message .= "<br><br><b>Observaciones:</b> " . $observaciones;
 
 
