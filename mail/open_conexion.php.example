@@ -1,0 +1,7 @@
+<?php
+
+$hotsdb = "localhost";
+$basededatos = "nombre_db";
+$usuariodb = "usuario_db";
+$clavedb = "pass";
+$conexion_db = mysqli_connect($hotsdb, $usuariodb, $clavedb, $basededatos) or die("Conexión denegada, el Servidor de Base de datos que solicitas NO EXISTE". mysqli_error($conexion_db));
