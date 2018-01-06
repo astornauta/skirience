@@ -44,45 +44,24 @@
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Chapelco" type="checkbox" name="Chapelco,Argentina" />
+                                            	<input id="Chapelco" type="checkbox" name="Chapelco,San_Martin_de_los_Andes" />
+                                            	<label for="Chapelco"></label>
+                                            </div>
+                                            <span>Chapelco, San Martin de los Andes</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="input-checkbox">
+                                            	<input id="Aspen" type="checkbox" name="Aspen_Snowmas,Colorado" />
                                             	<label for="Aspen"></label>
                                             </div>
-                                            <span>Chapelcó, Argentina</span>
+                                            <span>Aspen Snowmas, Colorado</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="SanMartin" type="checkbox" name="San_Martin_de_los_Andes,Argentina" />
-                                            	<label for="Aspen"></label>
-                                            </div>
-                                            <span>San Martin de los Andes, Argentina</span>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="input-checkbox">
-                                            	<input id="Aspen" type="checkbox" name="Aspen_Snowmass,Colorado" />
-                                            	<label for="Aspen"></label>
-                                            </div>
-                                            <span>Aspen Snowmass, Colorado</span>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="input-checkbox">
-                                            	<input id="Sankt" type="checkbox" name="Sankt_Anton,Austria" />
-                                            	<label for="Sankt"></label>
-                                            </div>
-                                            <span>Sankt Anton, Austria</span>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="input-checkbox">
-                                            	<input id="Vail" type="checkbox" name="Vail,Colorado" />
-                                            	<label for="Vail"></label>
-                                            </div>
-                                            <span>Vail, Colorado</span>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="input-checkbox">
-                                            	<input id="Baqueira" type="checkbox" name="Baqueira_Beret,España" />
+                                            	<input id="Baquera" type="checkbox" name="Baquera_Beret,España" />
                                             	<label for="Baqueira"></label>
                                             </div>
-                                            <span>Baqueira Beret, España</span>
+                                            <span>Baqueria Beret, España</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
@@ -90,6 +69,20 @@
                                             	<label for="Niseko"></label>
                                             </div>
                                             <span>Niseko, Japon</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="input-checkbox">
+                                            	<input id="LasLenas" type="checkbox" name="Las_Lenas,Argentina" />
+                                            	<label for="LasLenas"></label>
+                                            </div>
+                                            <span>Las Leñas, Argentina</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="input-checkbox">
+                                            	<input id="Grandvalira" type="checkbox" name="Grandvalira,Andorra" />
+                                            	<label for="Grandvalira"></label>
+                                            </div>
+                                            <span>Grandvalira, Andorra</span>
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="input-checkbox">
@@ -106,49 +99,19 @@
                                         <div class="col-sm-12 boxed">
                                             <h5>¿En qué fecha desea viajar?</h5>
                                         </div>
-                                        <div class="col-sm-12">
-                                            <input type="text" name="fecha_aproximada_inicio" class="datepicker validate-required" placeholder="Seleccione una fecha aproximada de inicio" />
-                                        </div>
-                                        <div class="col-sm-12 boxed">
-                                            <h5>¿Cuantos dias aproximadamente?</h5>
-                                        </div>
-                                        <div class="col-sm-12">
-                                        <div class="input-number">
-                                        	<input type="number" class="validate-required" name="cantidad_dias" placeholder="Cantidad de días" value="7" min="1" max="30" />
-                                        	<div class="input-number__controls">
-                                        		<span class="input-number__increase"><i class="stack-up-open"></i></span>
-                                                <span class="input-number__decrease"><i class="stack-down-open"></i></span>
-                                        	</div>
-                                        </div>
-                                        </div>
                                         <div class="col-sm-6 text-center">
                                             <input type="text" name="fecha_desde" class="datepicker validate-required" placeholder="Desde" />
                                         </div>
                                         <div class="col-sm-6 text-center">
                                             <input type="text" name="fecha_hasta" class="datepicker validate-required" placeholder="Hasta" />
                                         </div>
-                                        <div class="col-sm-12 text-center boxed">
-                                             <div class="input-checkbox input-checkbox--switch">
-                                            	<input id="checkbox-switch" type="checkbox" name="fechas_flexibles" />
-                                            	<label for="checkbox-switch"></label>
-                                            </div>
-                                            <span>¿Las fechas pueden ser flexibles?</span>
-                                            <!-- <h5>¿Las fechas pueden ser flexibles?</h5> -->
-                                        </div>
-                                        <!-- <div class="col-sm-3">
-                                            <div class="input-radio">
-                                            	<span class="input__label"> SI</span>
-                                            	<input id="radio-1" type="radio" name="fecha_flexible_SI" value="radio1" />
-                                            	<label for="radio-1"></label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <div class="input-radio">
-                                        	<span class="input__label"> NO</span>
-                                        	<input id="radio-2" type="radio" name="fecha_flexible_NO" value="radio2" />
-                                            <label for="radio-2"></label>
-                                            </div>
-                                        </div> -->
+                                        <div class="col-sm-12">
+                                            <div class="input-checkbox input-checkbox--switch">
+                                             <input id="checkbox-switch" type="checkbox" name="fechas_flexibles" />
+                                             <label for="checkbox-switch"></label>
+                                           </div>
+                                           <span>¿Las fechas pueden ser flexibles?</span>
+                                       </div>
                                         <div class="col-sm-12 boxed">
                                             <h5>¿Cuantas personas viajan?</h5>
                                         </div>
