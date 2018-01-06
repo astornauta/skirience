@@ -22,12 +22,12 @@
                 </div>
             </section>
             <a id="cover-text-2-parallax" class="in-page-link"></a>
-            <section class="cover imagebg image--light text-center text-left-sm height-70" data-overlay="4">
+            <section class="cover imagebg image--light text-center height-70" data-overlay="4">
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-sm-8 col-md-7">
                             <h1><b><i>Skirience</i></b></h1>
-                            <p class="lead text-left">Somos una joven agencia con ganas de ayudarte a que tengas una experiencia inolvidable, esquiando en los mejores resorts del mundo sin la preocupación de tener que organizar tú solo el viaje</p>
+                            <p class="lead">Somos una joven agencia con ganas de ayudarte a que tengas una experiencia inolvidable, esquiando en los mejores resorts del mundo sin la preocupación de tener que organizar tú solo el viaje</p>
                             <a class="btn btn--primary type--uppercase" href="quienessomos.php"> <span class="btn__text">Leer más </span> </a>
                         </div>
                     </div>
@@ -40,8 +40,8 @@
                 </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
-                        <div class="col-md-5 col-sm-7">
-                            <h3><b><i>Conocer tus deseos para poder diseñar un viaje a medida es fundamental para SKIRIENCE</i></b></h3>
+                        <div class="col-md-5 col-sm-7 text-center">
+                            <h3><b><i>Conocer tus deseos para poder diseñar un viaje personalizado es fundamental para SKIRIENCE</i></b></h3>
                             <p class="lead">Por eso te pedimos que nos ayudes con toda la información que puedas, será de gran importancia para la planificación de tu experiencia.</p>
                             <a class="btn btn--primary type--uppercase" href="form.php"> <span class="btn__text">empezar viaje </span> </a>
                         </div>

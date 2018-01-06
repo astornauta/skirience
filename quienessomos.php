@@ -6,7 +6,7 @@
             include("nav.html");
         ?>
         <div class="main-container">
-            <section class="text-center imagebg section--ken-burns text-left-sm" data-overlay="4">
+            <section class="text-center imagebg section--ken-burns" data-overlay="4">
                 <div class="background-image-holder"> <img alt="background" src="img/Quienes_BG.jpg"> </div>
                 <div class="container">
                     <div class="row">
@@ -17,19 +17,19 @@
                     </div>
                 </div>
             </section>
-            <section class="imageblock switchable height-60 text-left-sm switchable--switch bg--ski">
+            <section class="imageblock switchable height-60 switchable--switch bg--ski">
                 <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                     <div class="background-image-holder"> <img alt="image" src="img/Block_quienes.jpg"> </div>
                 </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-md-5 col-sm-7">
-                            <p class="lead"><b>…a tus demandas y exigencias permitirá que vivas una experiencia única creada exclusivamente para ti, de modo que solo tengas que disfrutar</b></p>
+                            <p class="lead text-center"><b>Háganos saber sus demandas y exigencias para diseñar un viaje creado exclusivamente para ti, de modo que solo tengas que disfrutar</b></p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="cover height-60 text-center text-left-sm">
+            <section class="cover height-60 text-center">
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-sm-8 col-md-7">
@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </section>
-            <section class="cover text-center text-left-sm space--sm bg--ski">
+            <section class="cover text-center space--sm bg--ski">
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-sm-8 col-md-7">
@@ -89,18 +89,6 @@
                         <div class="masonry__item col-md-4 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital">
                             <div class="project-thumb hover-element height-50">
                                 <div class="hover-element__initial">
-                                    <div class="background-image-holder"> <img alt="background" src="img/Telluride.jpg"> </div>
-                                </div>
-                                <div class="hover-element__reveal" data-overlay="9">
-                                    <div class="project-thumb__title">
-                                        <h5>EEUU, Telluride</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry__item col-md-4 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital">
-                            <div class="project-thumb hover-element height-50">
-                                <div class="hover-element__initial">
                                     <div class="background-image-holder"> <img alt="background" src="img/las_lenas.jpg"> </div>
                                 </div>
                                 <div class="hover-element__reveal" data-overlay="9">
@@ -110,38 +98,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="masonry__item col-md-8 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital">
-                            <div class="project-thumb hover-element height-50">
-                                <div class="hover-element__initial">
-                                    <div class="background-image-holder"> <img alt="background" src="img/Vail.jpg"> </div>
-                                </div>
-                                <div class="hover-element__reveal" data-overlay="9">
-                                    <div class="project-thumb__title">
-                                        <h5>EEUU, Vail</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry__item col-md-8 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital">
+                        <div class="masonry__item col-md-12 col-sm-12 col-xs-12 filter-digital" data-masonry-filter="Digital">
                             <div class="project-thumb hover-element height-50">
                                 <div class="hover-element__initial">
                                     <div class="background-image-holder"> <img alt="background" src="img/chapelco.jpg"> </div>
                                 </div>
                                 <div class="hover-element__reveal" data-overlay="9">
                                     <div class="project-thumb__title">
-                                        <h5>Argentina, Chapelco</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="masonry__item col-md-4 col-sm-6 col-xs-12 filter-digital" data-masonry-filter="Digital">
-                            <div class="project-thumb hover-element height-50">
-                                <div class="hover-element__initial">
-                                    <div class="background-image-holder"> <img alt="background" src="img/San_Martin.jpg"> </div>
-                                </div>
-                                <div class="hover-element__reveal" data-overlay="9">
-                                    <div class="project-thumb__title">
-                                        <h5>Argentina, San Martin de los Andes</h5>
+                                        <h5>Chapelco, San Martin de lo Andes</h5>
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +113,7 @@
                     </div>
                 </div>
             </section>
-            <section class="cover height-70 imagebg text-center text-left-sm image--light" data-overlay="4">
+            <section class="cover height-70 imagebg text-center image--light" data-overlay="4">
                 <div class="background-image-holder"> <img alt="background" src=""> </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
