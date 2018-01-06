@@ -1,5 +1,6 @@
 <?php
 // $saveToCSV = pathfile
+$saveToCSV = false
 if ($saveToCSV !== false){
 // Save to CSV file
       $file = fopen($saveToCSV, "w");
@@ -12,5 +13,5 @@ if ($saveToCSV !== false){
           fputcsv($file, $fila);
       }
       fclose($file);
-      $URL_DESCARGA = $saveToCSV.'/consultas.csv';
+      $URL_DESCARGA = $saveToCSV.'/encuestas.csv';
 }

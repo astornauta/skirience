@@ -4,7 +4,7 @@
   $to = "reservas@skirience.com";
 
   // Prepara conexión DB
-  include("open_connexion.php");
+  include("open_conexion.php");
 
   if (isset($_POST["consulta"])) {
       // Setea variables de consulta
@@ -13,7 +13,7 @@
       $mensaje = $_POST["mensaje"];
 
       //Prepara mail
-      $subject = "Contacto desde Web";
+      $subject = "Consulta desde Web";
       $message = "Nombre: " . $nombre;
       $message .= "<br><br>Email: " . $email;
       $message .= "<br><br>Mensaje: " . $mensaje;
@@ -56,10 +56,10 @@
       $tabla_db = "formulario";
       $query_formulario= "INSERT INTO $tabla_db (`name`, `email`, `lugar_inicio_viaje`, `destino_chapelco`, `destino_aspen_colorado`, `destino_laslenas_argentina`, `destino_grandvalira_andorra`, `destino_baqueria_espana`, `destino_niseko_japon`, `destino_otro`, `fecha_desde`, `fecha_hasta`,`fechas_flexibles`, `cantidad_personas`, `cantidad_ninos`, `edad_promedio_ninos`, `preferencia_hotel`, `alquiler_equipo`, `tomar_clases`, `objetivo_esquiar`, `objetivo_familia`, `objetivo_vida_nocturna`, `objetivo_relax_spa`, `objetivo_shopping`, `objetivo_otro`, `observaciones`, `fecha_envio`) VALUES ('$name', '$email', '$lugar_inicio_viaje',' $destino_chapelco', '$destino_aspen_colorado', '$destino_laslenas_argentina', '$destino_grandvalira_andorra', '$destino_baqueria_españa', '$destino_niseko_japon', '$destino_otro', '$fecha_desde', '$fecha_hasta', $fechas_flexibles, '$cantidad_personas', '$cantidad_niños', '$edad_promedio_niños', '$preferencia_hotel', '$alquiler_equipo', '$tomar_clases', '$objetivo_esquiar', '$objetivo_familia', '$objetivo_vida_nocturna', '$objetivo_relax_spa', '$objetivo_shopping', '$objetivo_otro', '$observaciones', '$fecha')";
       mysqli_query($conexion_db, $query_formulario);
-
+      //Prepara archivo csv
       include('lib/saveCSV.php');
       //Prepara mail
-      $subject = "Solicitud desde Web";
+      $subject = "Encuesta desde Web";
       $message = "<b>Nombre:</b> " . $nombre;
       $message .= "<br><br><b>Email:</b> " . $email;
       $message .= "<br><br><b>Lugar de inicio del viaje:</b> " . $lugar_inicio_viaje;
@@ -95,7 +95,7 @@
       $message .= "<br><br>";
       $message .= "<br><br><b>Observaciones:</b> " . $observaciones;
       $message .= "<br><br>";
-    $message .= "<br><br><u>DESCARGAR ARCHIVO CONSULTAS</u>";
+      $message .= "<br><br><u>DESCARGAR ARCHIVO ENCUESTAS</u>";
 
       $headers = "MIME-Version: 1.0" . "\r\n";
       $headers .= "Content-type: text/html; charset=utf-8" . "\r\n";
@@ -109,7 +109,7 @@
   // echo $error;
 
   // Cierra conexión DB
-  include("close_connexion.php");
+  mysqli_close($conexion_db);
 
   //Envía Mail
   if( mail($to, $subject, $message, $headers) ) {
