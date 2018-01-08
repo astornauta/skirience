@@ -8,6 +8,7 @@ window.mr = {
         today: "Hoy",
         clear: "Reiniciar",
         close: "Cierre",
+        min: new Date(),
     }
   }
 };

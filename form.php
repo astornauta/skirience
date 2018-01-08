@@ -44,56 +44,56 @@
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Aspen" type="checkbox" name="Aspen_Snowmas,Colorado" />
+                                            	<input class="validate-required" id="Aspen" type="checkbox" name="Aspen_Snowmas,Colorado" />
                                             	<label for="Aspen"></label>
                                             </div>
                                             <span>Aspen Snowmas, Colorado</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Chapelco" type="checkbox" name="Chapelco,San_Martin_de_los_Andes" />
+                                            	<input class="validate-required" id="Chapelco" type="checkbox" name="Chapelco,San_Martin_de_los_Andes" />
                                             	<label for="Chapelco"></label>
                                             </div>
                                             <span>Chapelco, San Martin de los Andes</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="LasLenas" type="checkbox" name="Las_Lenas,Argentina" />
+                                            	<input class="validate-required" id="LasLenas" type="checkbox" name="Las_Lenas,Argentina" />
                                             	<label for="LasLenas"></label>
                                             </div>
                                             <span>Las Leñas, Argentina</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Grandvalira" type="checkbox" name="Grandvalira,Andorra" />
+                                            	<input class="validate-required" id="Grandvalira" type="checkbox" name="Grandvalira,Andorra" />
                                             	<label for="Grandvalira"></label>
                                             </div>
                                             <span>Grandvalira, Andorra</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="SierraNevada" type="checkbox" name="Sierra_Nevada,España" />
+                                            	<input class="validate-required" id="SierraNevada" type="checkbox" name="Sierra_Nevada,España" />
                                             	<label for="SierraNevada"></label>
                                             </div>
                                             <span>Sierra Nevada, España</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Baquera" type="checkbox" name="Baquera_Beret,España" />
+                                            	<input class="validate-required" id="Baquera" type="checkbox" name="Baquera_Beret,España" />
                                             	<label for="Baqueira"></label>
                                             </div>
                                             <span>Baqueria Beret, España</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Niseko" type="checkbox" name="Niseko,Japon" />
+                                            	<input class="validate-required" id="Niseko" type="checkbox" name="Niseko,Japon" />
                                             	<label for="Niseko"></label>
                                             </div>
                                             <span>Niseko, Japon</span>
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="input-checkbox">
-                                            	<input id="Otro" type="checkbox" name="Otro_Destino_check" />
+                                            	<input class="validate-required" id="Otro" type="checkbox" name="Otro_Destino_check" />
                                             	<label for="Otro"></label>
                                             </div>
                                             <span>Otro: </span>
@@ -151,7 +151,7 @@
                                             <h5>¿Alguna preferencia para el hotel?<span class="no-bolt"> Actividades nocturnas, ubicación, etc.</span></h5>
                                         </div>
                                         <div class="col-sm-12">
-                                        <input type="text" class="validate-required" name="preferencia_hotel" placeholder="Preferencia para el hotel" />
+                                        <input type="text" name="preferencia_hotel" placeholder="Preferencia para el hotel" />
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="input-checkbox input-checkbox--switch">
@@ -251,6 +251,7 @@
         <script src="js/spectragram.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/custom.js"></script>
 
 
 
