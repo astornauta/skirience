@@ -33,6 +33,7 @@
       empty($_POST['Niseko,Japon']) ? $destino_niseko_japon = 'NO' : $destino_niseko_japon = 'SI';
       empty($_POST['Las_Lenas,Argentina']) ? $destino_laslenas_argentina = 'NO' : $destino_laslenas_argentina = 'SI';
       empty($_POST['Grandvalira,Andorra']) ? $destino_grandvalira_andorra = 'NO' : $destino_grandvalira_andorra = 'SI';
+      empty($_POST['Sierra_Nevada,España']) ? $destino_sierra_nevada = 'NO' : $destino_sierra_nevada = 'SI';
       empty($_POST['otro_destino']) ? $destino_otro = 'NO' : $destino_otro = $_POST['otro_destino'];
       $fecha_desde = $_POST['fecha_desde'];
       $fecha_hasta = $_POST['fecha_hasta'];
@@ -54,7 +55,7 @@
 
       // Guardo en DB
       $tabla_db = "formulario";
-      $query_formulario= "INSERT INTO $tabla_db (`name`, `email`, `lugar_inicio_viaje`, `destino_chapelco`, `destino_aspen_colorado`, `destino_laslenas_argentina`, `destino_grandvalira_andorra`, `destino_baqueria_espana`, `destino_niseko_japon`, `destino_otro`, `fecha_desde`, `fecha_hasta`,`fechas_flexibles`, `cantidad_personas`, `cantidad_ninos`, `edad_promedio_ninos`, `preferencia_hotel`, `alquiler_equipo`, `tomar_clases`, `objetivo_esquiar`, `objetivo_familia`, `objetivo_vida_nocturna`, `objetivo_relax_spa`, `objetivo_shopping`, `objetivo_otro`, `observaciones`, `fecha_envio`) VALUES ('$name', '$email', '$lugar_inicio_viaje',' $destino_chapelco', '$destino_aspen_colorado', '$destino_laslenas_argentina', '$destino_grandvalira_andorra', '$destino_baqueria_españa', '$destino_niseko_japon', '$destino_otro', '$fecha_desde', '$fecha_hasta', $fechas_flexibles, '$cantidad_personas', '$cantidad_niños', '$edad_promedio_niños', '$preferencia_hotel', '$alquiler_equipo', '$tomar_clases', '$objetivo_esquiar', '$objetivo_familia', '$objetivo_vida_nocturna', '$objetivo_relax_spa', '$objetivo_shopping', '$objetivo_otro', '$observaciones', '$fecha')";
+      $query_formulario= "INSERT INTO $tabla_db (`name`, `email`, `lugar_inicio_viaje`, `destino_chapelco`, `destino_aspen_colorado`, `destino_laslenas_argentina`, `destino_grandvalira_andorra`, `destino_baqueria_espana`, `destino_niseko_japon`,`destino_sierra_nevada`, `destino_otro`, `fecha_desde`, `fecha_hasta`,`fechas_flexibles`, `cantidad_personas`, `cantidad_ninos`, `edad_promedio_ninos`, `preferencia_hotel`, `alquiler_equipo`, `tomar_clases`, `objetivo_esquiar`, `objetivo_familia`, `objetivo_vida_nocturna`, `objetivo_relax_spa`, `objetivo_shopping`, `objetivo_otro`, `observaciones`, `fecha_envio`) VALUES ('$name', '$email', '$lugar_inicio_viaje',' $destino_chapelco', '$destino_aspen_colorado', '$destino_laslenas_argentina', '$destino_grandvalira_andorra', '$destino_baqueria_españa', '$destino_niseko_japon','$destino_sierra_nevada', '$destino_otro', '$fecha_desde', '$fecha_hasta', $fechas_flexibles, '$cantidad_personas', '$cantidad_niños', '$edad_promedio_niños', '$preferencia_hotel', '$alquiler_equipo', '$tomar_clases', '$objetivo_esquiar', '$objetivo_familia', '$objetivo_vida_nocturna', '$objetivo_relax_spa', '$objetivo_shopping', '$objetivo_otro', '$observaciones', '$fecha')";
       mysqli_query($conexion_db, $query_formulario);
       //Prepara archivo csv
       include('lib/saveCSV.php');
@@ -64,11 +65,12 @@
       $message .= "<br><br><b>Email:</b> " . $email;
       $message .= "<br><br><b>Lugar de inicio del viaje:</b> " . $lugar_inicio_viaje;
       $message .= "<br><br><u>DESTINOS</u> ";
-      $message .= "<br><br><b>Chapelco:</b> " . $destino_chapelco;
       $message .= "<br><br><b>Aspen Colorado:</b> " . $destino_aspen_colorado;
+      $message .= "<br><br><b>Chapelco:</b> " . $destino_chapelco;
       $message .= "<br><br><b>Las Leñas Argentina:</b> " . $destino_laslenas_argentina;
       $message .= "<br><br><b>Grandvalira Andorra:</b> " . $destino_grandvalira_andorra;
       $message .= "<br><br><b>Baqueria España:</b> " . $destino_baqueria_españa;
+      $message .= "<br><br><b>Sierra Nevada España:</b> " . $destino_sierra_nevada;
       $message .= "<br><br><b>Niseko Japón:</b> " . $destino_niseko_japon;
       $message .= "<br><br><b>Otro:</b> " . $destino_otro;
       $message .= "<br><br>";

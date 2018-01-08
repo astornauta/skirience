@@ -118,7 +118,7 @@
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-sm-8 col-md-7">
-                            <h1>Contestá estas preguntas y empezá el viaje !<br></h1>
+                            <h1>Contesta estas preguntas y empeza el viaje !<br></h1>
                             <a class="btn btn--primary type--uppercase" href="form.php"> <span class="btn__text">comenzar viaje </span> </a>
                         </div>
                     </div>
