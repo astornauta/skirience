@@ -44,13 +44,6 @@
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Chapelco" type="checkbox" name="Chapelco,San_Martin_de_los_Andes" />
-                                            	<label for="Chapelco"></label>
-                                            </div>
-                                            <span>Chapelco, San Martin de los Andes</span>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="input-checkbox">
                                             	<input id="Aspen" type="checkbox" name="Aspen_Snowmas,Colorado" />
                                             	<label for="Aspen"></label>
                                             </div>
@@ -58,17 +51,10 @@
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
-                                            	<input id="Baquera" type="checkbox" name="Baquera_Beret,España" />
-                                            	<label for="Baqueira"></label>
+                                            	<input id="Chapelco" type="checkbox" name="Chapelco,San_Martin_de_los_Andes" />
+                                            	<label for="Chapelco"></label>
                                             </div>
-                                            <span>Baqueria Beret, España</span>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="input-checkbox">
-                                            	<input id="Niseko" type="checkbox" name="Niseko,Japon" />
-                                            	<label for="Niseko"></label>
-                                            </div>
-                                            <span>Niseko, Japon</span>
+                                            <span>Chapelco, San Martin de los Andes</span>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="input-checkbox">
@@ -83,6 +69,27 @@
                                             	<label for="Grandvalira"></label>
                                             </div>
                                             <span>Grandvalira, Andorra</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="input-checkbox">
+                                            	<input id="SierraNevada" type="checkbox" name="Sierra_Nevada,España" />
+                                            	<label for="SierraNevada"></label>
+                                            </div>
+                                            <span>Sierra Nevada, España</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="input-checkbox">
+                                            	<input id="Baquera" type="checkbox" name="Baquera_Beret,España" />
+                                            	<label for="Baqueira"></label>
+                                            </div>
+                                            <span>Baqueria Beret, España</span>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="input-checkbox">
+                                            	<input id="Niseko" type="checkbox" name="Niseko,Japon" />
+                                            	<label for="Niseko"></label>
+                                            </div>
+                                            <span>Niseko, Japon</span>
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="input-checkbox">
