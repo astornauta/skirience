@@ -1,6 +1,6 @@
 <?php
 // $saveToCSV = pathfile
-$saveToCSV = false
+$saveToCSV = false;
 if ($saveToCSV !== false){
 // Save to CSV file
       $file = fopen($saveToCSV, "w");
