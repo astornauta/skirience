@@ -1,7 +1,14 @@
 <?php
 
-$hotsdb = "localhost";
+$hostdb = "localhost";
 $basededatos = "nombre_db";
 $usuariodb = "usuario_db";
 $clavedb = "pass";
-$conexion_db = mysqli_connect($hotsdb, $usuariodb, $clavedb, $basededatos) or die("Conexión denegada, el Servidor de Base de datos que solicitas NO EXISTE". mysqli_error($conexion_db));
+
+try {
+    $conexion_db = new PDO("mysql:host=${hostdb};dbname=${basededatos}", $usuariodb, $clavedb);
+    $conexion_db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
