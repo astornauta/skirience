@@ -100,8 +100,6 @@ if (isset($_POST["consulta"])) {
       error_log($e->getMessage);
       die();
     }
-    //Prepara archivo csv
-    require_once('./saveCSV.php');
     //Prepara mail
     $subject = "Encuesta desde Web";
     $message = "<b>Nombre:</b> " . $name;
@@ -140,7 +138,7 @@ if (isset($_POST["consulta"])) {
     $message .= "<br><br>";
     $message .= "<br><br><b>Observaciones:</b> " . $observaciones;
     $message .= "<br><br>";
-    $message .= "<br><br><u>DESCARGAR ARCHIVO ENCUESTAS</u>";
+    $message .= "<br><br><a href=\"http://skirience.com/admin/descarga_formularios.php\">DESCARGAR ARCHIVO ENCUESTAS</a>";
 
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type: text/html; charset=utf-8" . "\r\n";
