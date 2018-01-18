@@ -24,7 +24,7 @@
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-md-5 col-sm-7">
-                            <p class="lead text-center"><b>Háganos saber sus demandas y exigencias para diseñar un viaje creado exclusivamente para ti, de modo que solo tengas que disfrutar</b></p>
+                            <p class="lead text-center"><b>Háganos saber sus demandas y sugerencias para diseñar un viaje creado exclusivamente para ti, de modo que solo tengas que disfrutar</b></p>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-sm-8 col-md-7">
-                            <h1>Contesta estas preguntas y empeza el viaje !<br></h1>
+                            <h1>Contesta estas preguntas y empieza el viaje!<br></h1>
                             <a class="btn btn--primary type--uppercase" href="form.php"> <span class="btn__text">comenzar viaje </span> </a>
                         </div>
                     </div>
