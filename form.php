@@ -132,7 +132,7 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-3 text-center">
-                                            ¿Cuantos niños viajan?
+                                            ¿Cuantos niños viajan? (menores de 12)
                                         </div>
                                         <div class="col-sm-3 text-center">
                                             <div class="input-number">
