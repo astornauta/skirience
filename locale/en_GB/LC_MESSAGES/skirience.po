@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-05-17 23:50-0300\n"
+"PO-Revision-Date: 2018-05-18 00:14-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: footer.php:6 sections/nav.php:33
+msgid "Inicio"
+msgstr "Home"
+
+#: footer.php:7 sections/home.php:51 sections/nav.php:36
+#: sections/quienessomos.php:114
+msgid "Comenzar viaje"
+msgstr "Begin my trip"
+
+#: footer.php:8 sections/nav.php:39 sections/quienessomos.php:6
+msgid "Quiénes somos"
+msgstr "About Us"
+
+#: footer.php:9 sections/nav.php:42
+msgid "Contacto"
+msgstr "Contact"
+
+#: footer.php:23
+msgid "Hecho en Mendoza, Argentina"
+msgstr "Made in Mendoza, Argentina"
+
+#: header.php:5
+msgid "SKIRIENCE | Vive tu propia experiencia"
+msgstr "SKIRIENCE | Live your own experience"
+
+#: sections/form.php:6
+msgid "El sistema  es simple"
+msgstr "Simplicity is key"
+
+#: sections/form.php:7
+msgid "contestas esta simple encuesta"
+msgstr "fill out this survey"
+
+#: sections/form.php:7
+msgid "y ya empiezas tu viaje"
+msgstr "to start your trip"
+
+#: sections/form.php:18
+msgid "Gracias por comunicarse, nos pondremos en contacto en breve."
+msgstr "Thank you! We will get back to you shortly."
+
+#: sections/form.php:18
+msgid "Por favor complete todos los campos correctamente."
+msgstr "Please, fill out all fields in the form."
+
+#: sections/form.php:21
+msgid "Nombre"
+msgstr "Name"
+
+#: sections/form.php:22
+msgid "Ingrese su nombre"
+msgstr "Your name"
+
+#: sections/form.php:25
+msgid "Email"
+msgstr "Email"
+
+#: sections/form.php:26
+msgid "Ingrese su correo electrónico"
+msgstr "Your email"
+
+#: sections/form.php:29
+msgid "¿De dónde eres?"
+msgstr "Where are you from?"
+
+#: sections/form.php:29
+msgid "Queremos saber desde qué provincia y país te gustaría iniciar tu viaje"
+msgstr "Let us know where you’d like to begin your trip"
+
+#: sections/form.php:35
+msgid "¿A dónde te gustaría viajar?"
+msgstr "Where are you going?"
+
+#: sections/form.php:99
+msgid "¿En qué fecha desea viajar?"
+msgstr "When would you like to travel?"
+
+#: sections/form.php:102
+msgid "Desde"
+msgstr "From"
+
+#: sections/form.php:105
+msgid "Hasta"
+msgstr "To"
+
+#: sections/form.php:112
+msgid "¿Las fechas pueden ser flexibles?"
+msgstr "Is your travel schedule flexible?"
+
+#: sections/form.php:115
+msgid "¿Cuantas personas viajan?"
+msgstr "How many people are travelling?"
+
+#: sections/form.php:119
+msgid "Cantidad de personas"
+msgstr "How many people"
+
+#: sections/form.php:127
+msgid "¿Cuantos niños viajan? (menores de 12)"
+msgstr "How many kids are travelling? (under 12)"
+
+#: sections/form.php:135
+msgid "Edad promedio"
+msgstr "Average age"
+
+#: sections/form.php:143
+msgid "¿Alguna preferencia para el hotel?"
+msgstr "Tell us if you have any preferences for the hotel?"
+
+#: sections/form.php:143
+msgid "Actividades nocturnas, ubicación, etc."
+msgstr "Nightlife, location, etc."
+
+#: sections/form.php:146
+msgid "Preferencia para el hotel"
+msgstr "Hotel preferences"
+
+#: sections/form.php:153
+msgid "¿Necesita alquilar equipo de esqui?"
+msgstr "Do you need to rent ski equipment?"
+
+#: sections/form.php:160
+msgid "¿Tomará clases de esquí o snowboard?"
+msgstr "Are you taking skiing or snowboarding lessons?"
+
+#: sections/form.php:163
+msgid "¿Cuál es el objetivo de su viaje?"
+msgstr "What’s the goal of your trip?"
+
+#: sections/form.php:170
+msgid "Esquiar"
+msgstr "Skiing"
+
+#: sections/form.php:177
+msgid "Familia"
+msgstr "Spending time with family and friends"
+
+#: sections/form.php:184
+msgid "Vida Nocturna"
+msgstr "Enjoying the nightlife"
+
+#: sections/form.php:191
+msgid "Relax/Spa"
+msgstr "Pleasure"
+
+#: sections/form.php:198
+msgid "Shopping"
+msgstr "Shopping"
+
+#: sections/form.php:205
+msgid "Otro:"
+msgstr "Other:"
+
+#: sections/form.php:208
+msgid "Otro objetivo.."
+msgstr "Other.."
+
+#: sections/form.php:211
+msgid ""
+"Comentanos todos los datos que creas necesarios para que tu viaje sea el "
+"mejor"
+msgstr "Tell us everything we need to know to offer you the best trip"
+
+#: sections/form.php:214
+msgid "Observaciones.."
+msgstr "Observations.."
+
+#: sections/form.php:215
+msgid "Enviar"
+msgstr "Send"
+
+#: sections/home.php:35
+msgid ""
+"Somos una joven agencia con ganas de ayudarte a que tengas una experiencia "
+"inolvidable, esquiando en los mejores resorts del mundo sin la preocupación "
+"de tener que organizar tú solo el viaje"
+msgstr ""
+"Have an unforgettable ski experience in the best resorts in the world. Sit "
+"back and enjoy, we’ll help you plan your trip"
+
+#: sections/home.php:36
+msgid "Leer más"
+msgstr "Read more"
+
+#: sections/home.php:49
+msgid ""
+"Conocer tus deseos para poder diseñar un viaje personalizado es fundamental "
+"para SKIRIENCE"
+msgstr "Tell us what’s on your wishlist"
+
+#: sections/home.php:50
+msgid ""
+"Por eso te pedimos que nos ayudes con toda la información que puedas, será "
+"de gran importancia para la planificación de tu experiencia."
+msgstr "We’ll do the rest."
+
+#: sections/home.php:62
+msgid ""
+"No olvides consultarnos cualquier duda que tengas, nos esforzamos por "
+"responder a todas las consultas en el menor tiempo posible."
+msgstr "Please let us know if you have questions. We’ll answer ASAP."
+
+#: sections/home.php:63
+msgid "Equipo de SKIRIENCE"
+msgstr "SKIRIENCE's team"
+
+#: sections/home.php:69
+msgid "NOMBRE"
+msgstr "NAME"
+
+#: sections/home.php:69
+msgid "Su nombre.."
+msgstr "Your name.."
+
+#: sections/home.php:70
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: sections/home.php:70
+msgid "Su email.."
+msgstr "Your email.."
+
+#: sections/home.php:71
+msgid "MENSAJE"
+msgstr "MESSAGE"
+
+#: sections/home.php:71
+msgid "Su mensaje.."
+msgstr "Your message.."
+
+#: sections/home.php:72
+msgid "ENVIAR"
+msgstr "SEND"
+
+#: sections/quienessomos.php:7
+msgid ""
+"Somos Caro y Salva, dos profesionales del esquí con muchos años de "
+"experiencia. Hemos trabajado por España, Argentina y EEUU, y entre bajada y "
+"bajada, hemos pasado muchas horas encima del telesilla mientras charlábamos "
+"de todo tipo de temas con ustedes"
+msgstr ""
+"Hi there! We’re Caro and Salva, both ski professionals with over … years of "
+"experience on the slope. We have worked in Spain, Argentina, and the United "
+"States and we have met many people who share the snow rush"
+
+#: sections/quienessomos.php:19
+msgid ""
+"Háganos saber sus demandas y sugerencias para diseñar un viaje creado "
+"exclusivamente para ti, de modo que solo tengas que disfrutar"
+msgstr ""
+"The best way to offer you the skiing trip of your dreams is to know what’s "
+"on your wishlist. Then, sit back and enjoy. We’ll take care of every detail"
+
+#: sections/quienessomos.php:28
+msgid ""
+"Nuestro objetivo es proponerte distintos destinos de esquí y facilitarte los "
+"servicios que desees."
+msgstr ""
+"Our aim is to show you various ski destinations and offer you the "
+"accommodation, mobility and equipment you need."
+
+#: sections/quienessomos.php:37
+msgid "Algunas de nuestras recomendaciones:"
+msgstr "Some of our recommendations:"
+
+#: sections/quienessomos.php:113
+msgid "Contesta estas preguntas y empieza el viaje!"
+msgstr "Answer this questions and enjoy your trip!"
+
+#~ msgid "Vive experiencias"
+#~ msgstr "Live"
+
+#~ msgid "comenzar viaje"
+#~ msgstr "begin my trip"
+
+#~ msgid "quiénes somos"
+#~ msgstr "about us"
+
+#~ msgid "contacto"
+#~ msgstr "contact"
+
+#~ msgid "únicas, inolvidables, de esquiar, de viajar"
+#~ msgstr "ski experiences, travelling experiences, unique experiences"

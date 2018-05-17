@@ -105,3 +105,8 @@ section.space--md, footer.space--md {
 .background-image-holder {
   background-position: 20% 50% !important;
 }
+
+.lang-icon{
+  width: 2.1rem;
+  margin: 0 5px !important;
+}

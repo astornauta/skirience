@@ -2,7 +2,8 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>SKIRIENCE | Vive tu propia experiencia</title>
+        <title><?php echo _("SKIRIENCE | Vive tu propia experiencia");?></title>
+        <base href="/">
         <link rel="icon" type="image/png" href="img/favicon32.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
@@ -24,3 +25,6 @@
           gtag('config', 'UA-46727112-39');
         </script>
     </head>
+    <body data-smooth-scroll-offset="77">
+        <?php include("./sections/nav.php"); ?>
+        <div class="main-container">
