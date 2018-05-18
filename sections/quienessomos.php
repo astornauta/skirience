@@ -111,7 +111,7 @@
         <div class="row">
             <div class="col-sm-8 col-md-7">
             <h1><?php echo _("Contesta estas preguntas y empieza el viaje!");?><br></h1>
-            <a class="btn btn--primary type--uppercase" href="form.php"><span class="btn__text"><?php echo _("Comenzar viaje");?></span> </a>
+            <a class="btn btn--primary type--uppercase" href=<?php echo $l('comenzar')?>><span class="btn__text"><?php echo _("Comenzar viaje");?></span> </a>
             </div>
         </div>
     </div>
